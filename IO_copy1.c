@@ -1,11 +1,9 @@
 # include <stdio.h>
-/* copy input to output; ver_1 */
+/* copy input to output; ver_2 */
 main()
 {
 	int c;
-	c=getchar();
-	while (c != EOF){
+	
+	while ((c=getchar()) != EOF)
 		putchar(c);
-		c=getchar();
-	}
 }
